@@ -1,0 +1,185 @@
+.configure {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .configure h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  /* Config Section */
+  .config-section {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .config-section h2 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+  }
+  
+  .config-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .form-group label {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .btn-configure {
+    padding: 12px 40px;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-configure:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Matrices Section */
+  .matrices-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .config-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .config-info p {
+    color: #2c3e50;
+    font-weight: 500;
+  }
+  
+  .btn-reset {
+    padding: 8px 20px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-reset:hover {
+    background: #c0392b;
+  }
+  
+  /* Matrix Container */
+  .matrix-container {
+    margin-bottom: 30px;
+  }
+  
+  .matrix-container h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .matrix-desc {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .matrix-table th,
+  .matrix-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .matrix-table th {
+    background: #2c3e50;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .matrix-table td:first-child {
+    background: #f8f9fa;
+    font-weight: 500;
+    color: #2c3e50;
+  }
+  
+  .matrix-table input {
+    width: 60px;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .matrix-table input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    transform: translateY(-2px);
+  }
