@@ -4,13 +4,30 @@
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-  padding: 50px;
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
 }
 
-h1 {
+.App {
+  min-height: 100vh;
+}
+
+.container {
+  padding: 30px;
+}
+
+.page {
+  text-align: center;
+  padding: 50px;
+}
+
+.page h1 {
   color: #2c3e50;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.page p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
 }

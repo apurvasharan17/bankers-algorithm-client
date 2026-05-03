@@ -1,0 +1,22 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+import '../styles/Navbar.css'
+
+const Navbar =()=>{
+
+
+    return(
+        <nav className='navbar'>
+            <div className='navbar-brand'>
+                <Link to='/'>Banker's Algorithm</Link>
+            </div>
+            <ul className="navbar-links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/configure">Configure</Link></li>
+        <li><Link to="/simulation">Simulation</Link></li>
+        <li><Link to="/history">History</Link></li>
+        </ul>
+        </nav>
+    )
+}
+export default Navbar
